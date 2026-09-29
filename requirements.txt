@@ -1,0 +1,8 @@
+langgraph
+langchain-mcp-adapters
+mcp
+langchain-core
+ollama
+pydantic
+python-dotenv
+pypdf
