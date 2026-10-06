@@ -65,7 +65,7 @@ MIN_BUFFER_MINUTES = 30
 USER_EMAIL = os.environ.get("USER_EMAIL", "you@example.com")
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "gemma3:4b")
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-OLLAMA_TIMEOUT_S = 30  # local inference on CPU can be slower than a cloud API
+OLLAMA_TIMEOUT_S = 90  # local inference on CPU can be slower than a cloud API
 
 # Real Google Calendar data returns a mix of formats: date-only all-day
 # events ("2026-09-10"), offset-aware timed events
